@@ -1,0 +1,59 @@
+[
+    {
+      "report_id": "patient_001_discharge_report",
+      "template_id": "discharge_summary",
+      "content": {
+        "Admission Date": "2025-01-15",
+        "Diagnosis": "Type 2 Diabetes",
+        "Treatment Plan": "Metformin 500 mg daily",
+        "Follow-Up": "Clinic visit in 1 month"
+      },
+      "guideline_reference": "NICE guideline NG28",
+      "output_file": "/dataset/ground_truth/sample_reports/patient_001_discharge.pdf"
+    },
+    {
+      "report_id": "patient_002_lab_report",
+      "template_id": "lab_report",
+      "content": {
+        "Test Date": "2025-01-16",
+        "Results": "Glucose: 90 mg/dL, Cholesterol: 220 mg/dL",
+        "Interpretation": "Normal glucose, elevated cholesterol"
+      },
+      "guideline_reference": "AACC lipid guidelines",
+      "output_file": "/dataset/ground_truth/sample_reports/patient_002_lab.pdf"
+    },
+    {
+      "report_id": "patient_003_clinical_report",
+      "template_id": "clinical_note",
+      "content": {
+        "Patient History": "History of hypertension",
+        "Symptoms": "Chest pain, no fever",
+        "Observations": "Stable vitals"
+      },
+      "guideline_reference": "AHA chest pain guidelines",
+      "output_file": "/dataset/ground_truth/sample_reports/patient_003_clinical.pdf"
+    },
+    {
+      "report_id": "patient_004_radiology_report",
+      "template_id": "radiology_report",
+      "content": {
+        "Imaging Date": "2025-01-17",
+        "Findings": "No fractures, mild lung congestion",
+        "Recommendations": "Follow-up CT scan"
+      },
+      "guideline_reference": "ACR radiology guidelines",
+      "output_file": "/dataset/ground_truth/sample_reports/patient_004_radiology.pdf"
+    },
+    {
+      "report_id": "patient_005_discharge_report",
+      "template_id": "discharge_summary",
+      "content": {
+        "Admission Date": "2025-01-18",
+        "Diagnosis": "Asthma exacerbation",
+        "Treatment Plan": "Albuterol inhaler",
+        "Follow-Up": "Pulmonologist in 2 weeks"
+      },
+      "guideline_reference": "GINA asthma guidelines",
+      "output_file": "/dataset/ground_truth/sample_reports/patient_005_discharge.pdf"
+    }
+  ]

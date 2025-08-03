@@ -1,0 +1,26 @@
+[
+  {
+    "template_id": "clinical_note",
+    "sections": ["Patient History", "Symptoms", "Observations"],
+    "placeholders": ["patient_id", "symptoms", "observations"],
+    "sample_pdf_ids": ["patient_001_clinical_note1.pdf", "patient_002_clinical_note1.pdf"]
+  },
+  {
+    "template_id": "discharge_summary",
+    "sections": ["Admission Date", "Diagnosis", "Treatment Plan", "Follow-Up"],
+    "placeholders": ["patient_id", "diagnosis_code", "medications", "follow_up_date"],
+    "sample_pdf_ids": ["patient_001_discharge_summary1.pdf", "patient_002_discharge_summary1.pdf"]
+  },
+  {
+    "template_id": "lab_report",
+    "sections": ["Test Date", "Results", "Interpretation"],
+    "placeholders": ["patient_id", "test_results", "interpretation"],
+    "sample_pdf_ids": ["patient_001_lab_report1.pdf", "patient_002_lab_report1.pdf"]
+  },
+  {
+    "template_id": "radiology_report",
+    "sections": ["Imaging Date", "Findings", "Recommendations"],
+    "placeholders": ["patient_id", "imaging_findings", "recommendations"],
+    "sample_pdf_ids": ["patient_001_radiology_report1.pdf", "patient_002_radiology_report1.pdf"]
+  }
+]

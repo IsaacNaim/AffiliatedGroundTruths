@@ -1,0 +1,33 @@
+[
+  {
+    "pdf_id": "patient_001_clinical_note1.pdf",
+    "full_text": "Patient presents with chest pain, no fever, history of hypertension...",
+    "summary": "Patient reports chest pain, history of hypertension, no fever noted.",
+    "is_scanned": true
+  },
+  {
+    "pdf_id": "patient_001_discharge_summary1.pdf",
+    "full_text": "Discharge Summary\nPatient ID: 001\nAdmission Date: 2025-01-15\nDiagnosis: Type 2 Diabetes\nTreatment: Metformin 500 mg daily\nFollow-Up: Clinic visit in 1 month...",
+    "summary": "Admitted for Type 2 Diabetes, prescribed Metformin, follow-up in 1 month.",
+    "is_scanned": false
+  },
+  {
+    "pdf_id": "patient_001_lab_report1.pdf",
+    "full_text": "Lab Report\nPatient ID: 001\nDate: 2025-01-15\nGlucose: 90 mg/dL\nCholesterol: 220 mg/dL...",
+    "summary": "Blood test shows normal glucose (90 mg/dL), elevated cholesterol (220 mg/dL).",
+    "is_scanned": false
+  },
+  {
+    "pdf_id": "patient_001_radiology_report1.pdf",
+    "full_text": "Radiology Report\nPatient ID: 001\nDate: 2025-01-17\nX-ray: No fractures, mild lung congestion...",
+    "summary": "X-ray shows no fractures, mild lung congestion.",
+    "is_scanned": true
+  },
+  {
+    "pdf_id": "patient_002_clinical_note1.pdf",
+    "full_text": "Patient reports shortness of breath, history of asthma...",
+    "summary": "Patient with asthma reports shortness of breath.",
+    "is_scanned": true
+  },
+  // ... 15 more entries for patients 002–005
+]
